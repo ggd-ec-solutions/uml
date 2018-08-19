@@ -1,0 +1,106 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "SISTEMA DE GESTION DE TRANSPORTE",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				},
+				{
+					"_type": "DFDDataFlowModel",
+					"_id": "AAAAAAFlVBx21Jvdnzw=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "DFD",
+					"ownedElements": [
+						{
+							"_type": "DFDDiagram",
+							"_id": "AAAAAAFlVBx21JvefaU=",
+							"_parent": {
+								"$ref": "AAAAAAFlVBx21Jvdnzw="
+							},
+							"name": "Diagrama de Contexto",
+							"ownedViews": [
+								{
+									"_type": "DFDProcessView",
+									"_id": "AAAAAAFlVBzWyJvlMTw=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFlVBzWyJvmZfA=",
+											"_parent": {
+												"$ref": "AAAAAAFlVBzWyJvlMTw="
+											},
+											"font": "Arial;13;0",
+											"left": 258,
+											"top": 104,
+											"width": 244,
+											"height": 13,
+											"text": "Sistema de gestion de transporte",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFlVBzWyJvngsE=",
+											"_parent": {
+												"$ref": "AAAAAAFlVBzWyJvlMTw="
+											},
+											"font": "Arial;13;0",
+											"left": 258,
+											"top": 77,
+											"width": 244,
+											"height": 13,
+											"text": "1"
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 248,
+									"top": 72,
+									"width": 264,
+									"height": 272,
+									"nameLabel": {
+										"$ref": "AAAAAAFlVBzWyJvmZfA="
+									},
+									"idLabel": {
+										"$ref": "AAAAAAFlVBzWyJvngsE="
+									}
+								}
+							]
+						},
+						{
+							"_type": "DFDProcess",
+							"_id": "AAAAAAFlVBzWx5vjXn0=",
+							"_parent": {
+								"$ref": "AAAAAAFlVBx21Jvdnzw="
+							},
+							"name": "Sistema de gestion de transporte",
+							"documentation": "Diagrama de contexto.\nFuncionalidades generales",
+							"id": "1"
+						}
+					]
+				}
+			]
+		}
+	]
+}
