@@ -53,8 +53,8 @@
 												"$ref": "AAAAAAFlVBzWyJvlMTw="
 											},
 											"font": "Arial;13;0",
-											"left": 258,
-											"top": 104,
+											"left": 602,
+											"top": 392,
 											"width": 244,
 											"height": 13,
 											"text": "Sistema de gestion de transporte",
@@ -67,16 +67,16 @@
 												"$ref": "AAAAAAFlVBzWyJvlMTw="
 											},
 											"font": "Arial;13;0",
-											"left": 258,
-											"top": 77,
+											"left": 602,
+											"top": 365,
 											"width": 244,
 											"height": 13,
 											"text": "1"
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 248,
-									"top": 72,
+									"left": 592,
+									"top": 360,
 									"width": 264,
 									"height": 272,
 									"nameLabel": {
@@ -84,6 +84,1065 @@
 									},
 									"idLabel": {
 										"$ref": "AAAAAAFlVBzWyJvngsE="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "AAAAAAFld4OKyTMTr4U=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld4OKyTMR7hw="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld4OKyTMZyHY=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMTr4U="
+											},
+											"font": "Arial;13;0",
+											"left": 162,
+											"top": 637,
+											"width": 145,
+											"height": 13,
+											"text": "2"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld4OKyTMUvzw=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMTr4U="
+											},
+											"font": "Arial;13;0",
+											"left": 162,
+											"top": 655,
+											"width": 145,
+											"height": 13,
+											"text": "Administrador",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld4OKyTMVLIY=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMTr4U="
+											},
+											"font": "Arial;13;0",
+											"left": -168,
+											"top": 120,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 152,
+									"top": 632,
+									"width": 165,
+									"height": 129,
+									"nameLabel": {
+										"$ref": "AAAAAAFld4OKyTMUvzw="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld4UE1DMjgkw=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld4UE0DMhqlw="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld4UE1DMks8c=",
+											"_parent": {
+												"$ref": "AAAAAAFld4UE1DMjgkw="
+											},
+											"model": {
+												"$ref": "AAAAAAFld4UE0DMhqlw="
+											},
+											"font": "Arial;13;0",
+											"left": 366,
+											"top": 632,
+											"width": 122,
+											"height": 13,
+											"alpha": -4.773288604131636,
+											"distance": 164.30459518832697,
+											"hostEdge": {
+												"$ref": "AAAAAAFld4UE1DMjgkw="
+											},
+											"edgePosition": 1,
+											"text": "2.1. Ingresar persona"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "316:648;592:648;592:631",
+									"nameLabel": {
+										"$ref": "AAAAAAFld4UE1DMks8c="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld4Y3TDM7rq8=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld4Y3QzM5YUU="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld4Y3TDM8dSw=",
+											"_parent": {
+												"$ref": "AAAAAAFld4Y3TDM7rq8="
+											},
+											"model": {
+												"$ref": "AAAAAAFld4Y3QzM5YUU="
+											},
+											"font": "Arial;13;0",
+											"left": 368,
+											"top": 584,
+											"width": 113,
+											"height": 13,
+											"alpha": 0.07561313753037055,
+											"distance": 132.3782459469833,
+											"hostEdge": {
+												"$ref": "AAAAAAFld4Y3TDM7rq8="
+											},
+											"edgePosition": 1,
+											"text": "2.2.Agregar usuario"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "292:632;292:600;592:600",
+									"nameLabel": {
+										"$ref": "AAAAAAFld4Y3TDM8dSw="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld4d6oDNOY5Y=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld4d6oDNMMjE="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld4d6oDNPqVI=",
+											"_parent": {
+												"$ref": "AAAAAAFld4d6oDNOY5Y="
+											},
+											"model": {
+												"$ref": "AAAAAAFld4d6oDNMMjE="
+											},
+											"font": "Arial;13;0",
+											"left": 319,
+											"top": 488,
+											"width": 130,
+											"height": 13,
+											"alpha": 0.06838633892109773,
+											"distance": 146.34206503941374,
+											"hostEdge": {
+												"$ref": "AAAAAAFld4d6oDNOY5Y="
+											},
+											"edgePosition": 1,
+											"text": "2.6.Agregar Conductor"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "238:632;238:504;592:504",
+									"nameLabel": {
+										"$ref": "AAAAAAFld4d6oDNPqVI="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld4nGtDNi4N4=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld4nGtDNgnJ0="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld4nGtDNjBRM=",
+											"_parent": {
+												"$ref": "AAAAAAFld4nGtDNi4N4="
+											},
+											"model": {
+												"$ref": "AAAAAAFld4nGtDNgnJ0="
+											},
+											"font": "Arial;13;0",
+											"left": 360,
+											"top": 560,
+											"width": 99,
+											"height": 13,
+											"alpha": 0.06526664181885787,
+											"distance": 153.32644912082193,
+											"hostEdge": {
+												"$ref": "AAAAAAFld4nGtDNi4N4="
+											},
+											"edgePosition": 1,
+											"text": "2.3.Agregar roles"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "256:632;256:576;592:576",
+									"nameLabel": {
+										"$ref": "AAAAAAFld4nGtDNjBRM="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld4sAuDNtX7c=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld4sAtzNr2uo="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld4sAuDNuuiU=",
+											"_parent": {
+												"$ref": "AAAAAAFld4sAuDNtX7c="
+											},
+											"model": {
+												"$ref": "AAAAAAFld4sAtzNr2uo="
+											},
+											"font": "Arial;13;0",
+											"left": 327,
+											"top": 512,
+											"width": 126,
+											"height": 13,
+											"alpha": 0.06656815935104533,
+											"distance": 150.33296378372907,
+											"hostEdge": {
+												"$ref": "AAAAAAFld4sAuDNtX7c="
+											},
+											"edgePosition": 1,
+											"text": "2.5.Asignar privilegios"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "240:632;240:528;592:528",
+									"nameLabel": {
+										"$ref": "AAAAAAFld4sAuDNuuiU="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld45k/DOBkBU=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld45k+jN/Mig="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld45k/DOCmb8=",
+											"_parent": {
+												"$ref": "AAAAAAFld45k/DOBkBU="
+											},
+											"model": {
+												"$ref": "AAAAAAFld45k+jN/Mig="
+											},
+											"font": "Arial;13;0",
+											"left": 320,
+											"top": 464,
+											"width": 125,
+											"height": 13,
+											"alpha": 0.06933312888882324,
+											"distance": 144.34680460612904,
+											"hostEdge": {
+												"$ref": "AAAAAAFld45k/DOBkBU="
+											},
+											"edgePosition": 1,
+											"text": "2.7.Ingresar vehiculos"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "238:632;238:480;592:480",
+									"nameLabel": {
+										"$ref": "AAAAAAFld45k/DOCmb8="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "AAAAAAFld49LZTORRjM=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld49LZTOPdHw="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld49LZTOXMFw=",
+											"_parent": {
+												"$ref": "AAAAAAFld49LZTORRjM="
+											},
+											"font": "Arial;13;0",
+											"left": 202,
+											"top": 141,
+											"width": 108,
+											"height": 13,
+											"text": "4"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld49LZTOS+ME=",
+											"_parent": {
+												"$ref": "AAAAAAFld49LZTORRjM="
+											},
+											"font": "Arial;13;0",
+											"left": 202,
+											"top": 159,
+											"width": 108,
+											"height": 13,
+											"text": "Tecnico",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld49LZTOTVVs=",
+											"_parent": {
+												"$ref": "AAAAAAFld49LZTORRjM="
+											},
+											"font": "Arial;13;0",
+											"top": -16,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 192,
+									"top": 136,
+									"width": 128,
+									"height": 120,
+									"nameLabel": {
+										"$ref": "AAAAAAFld49LZTOS+ME="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld4/ppDOgFx4=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld4/poTOeG9M="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld4/ppDOh4Wk=",
+											"_parent": {
+												"$ref": "AAAAAAFld4/ppDOgFx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFld4/poTOeG9M="
+											},
+											"font": "Arial;13;0",
+											"left": 304,
+											"top": 440,
+											"width": 209,
+											"height": 13,
+											"alpha": 0.05875581926744703,
+											"distance": 170.29386365926402,
+											"hostEdge": {
+												"$ref": "AAAAAAFld4/ppDOgFx4="
+											},
+											"edgePosition": 1,
+											"text": "2.8.Asignar conductores a vehiculos"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "238:632;238:456;592:456",
+									"nameLabel": {
+										"$ref": "AAAAAAFld4/ppDOh4Wk="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "AAAAAAFld5Fg0zO5m2s=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld5Fg0zO3z7g="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld5Fg0zO/VNc=",
+											"_parent": {
+												"$ref": "AAAAAAFld5Fg0zO5m2s="
+											},
+											"font": "Arial;13;0",
+											"left": 1026,
+											"top": 173,
+											"width": 116,
+											"height": 13,
+											"text": "3"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld5Fg0zO6Zc4=",
+											"_parent": {
+												"$ref": "AAAAAAFld5Fg0zO5m2s="
+											},
+											"font": "Arial;13;0",
+											"left": 1026,
+											"top": 191,
+											"width": 116,
+											"height": 13,
+											"text": "Conductor",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld5Fg0zO7Lnc=",
+											"_parent": {
+												"$ref": "AAAAAAFld5Fg0zO5m2s="
+											},
+											"font": "Arial;13;0",
+											"left": -16,
+											"top": 48,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 1016,
+									"top": 168,
+									"width": 136,
+									"height": 112,
+									"nameLabel": {
+										"$ref": "AAAAAAFld5Fg0zO6Zc4="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld5MbYDPULh8=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld5MbYDPSS1M="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld5MbYDPVE+0=",
+											"_parent": {
+												"$ref": "AAAAAAFld5MbYDPULh8="
+											},
+											"model": {
+												"$ref": "AAAAAAFld5MbYDPSS1M="
+											},
+											"font": "Arial;13;0",
+											"left": 863,
+											"top": 365,
+											"width": 246,
+											"height": 13,
+											"alpha": -0.11710875594342962,
+											"distance": 102.70345661174214,
+											"hostEdge": {
+												"$ref": "AAAAAAFld5MbYDPULh8="
+											},
+											"edgePosition": 1,
+											"text": "3.1. solicitar revision de vehiculo (opcional)"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld5Fg0zO5m2s="
+									},
+									"lineStyle": 2,
+									"points": "1088:279;1088:384;855:384",
+									"nameLabel": {
+										"$ref": "AAAAAAFld5MbYDPVE+0="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld5QUVTPfjw8=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld5QUVTPdCYI="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld5QUVTPg1Ps=",
+											"_parent": {
+												"$ref": "AAAAAAFld5QUVTPfjw8="
+											},
+											"model": {
+												"$ref": "AAAAAAFld5QUVTPdCYI="
+											},
+											"font": "Arial;13;0",
+											"left": 335,
+											"top": 362,
+											"width": 249,
+											"height": 13,
+											"alpha": -1.4648119129746164,
+											"distance": 141.7956275771577,
+											"hostEdge": {
+												"$ref": "AAAAAAFld5QUVTPfjw8="
+											},
+											"edgePosition": 1,
+											"text": "3.2.Notificar solicitud de revision"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFld49LZTORRjM="
+									},
+									"tail": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"lineStyle": 2,
+									"points": "592:384;319:384;319:255",
+									"nameLabel": {
+										"$ref": "AAAAAAFld5QUVTPg1Ps="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld5eEHTP2RS8=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld5eEHTP0fLo="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld5eEHTP32AU=",
+											"_parent": {
+												"$ref": "AAAAAAFld5eEHTP2RS8="
+											},
+											"model": {
+												"$ref": "AAAAAAFld5eEHTP0fLo="
+											},
+											"font": "Arial;13;0",
+											"left": 334,
+											"top": 199,
+											"width": 298,
+											"height": 13,
+											"alpha": -1.6458431654572334,
+											"distance": 133.37541002748594,
+											"hostEdge": {
+												"$ref": "AAAAAAFld5eEHTP2RS8="
+											},
+											"edgePosition": 1,
+											"text": "3.3. Enviar formulario de solicitud de mantenimiento"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld49LZTORRjM="
+									},
+									"lineStyle": 2,
+									"points": "319:216;616:216;616:360",
+									"nameLabel": {
+										"$ref": "AAAAAAFld5eEHTP32AU="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld6BcTzQSNwk=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld6BcTzQQUEY="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld6BcTzQTpqc=",
+											"_parent": {
+												"$ref": "AAAAAAFld6BcTzQSNwk="
+											},
+											"model": {
+												"$ref": "AAAAAAFld6BcTzQQUEY="
+											},
+											"font": "Arial;13;0",
+											"left": 355,
+											"top": 672,
+											"width": 226,
+											"height": 13,
+											"alpha": -4.765813877891557,
+											"distance": 187.2671887971836,
+											"hostEdge": {
+												"$ref": "AAAAAAFld6BcTzQSNwk="
+											},
+											"edgePosition": 1,
+											"text": "3.4.Aprobar solicitud de mantenimiento"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "316:688;656:688;656:631",
+									"nameLabel": {
+										"$ref": "AAAAAAFld6BcTzQTpqc="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld6GvNDQvp70=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld6GvNDQt/xE="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld6GvNDQwaZU=",
+											"_parent": {
+												"$ref": "AAAAAAFld6GvNDQvp70="
+											},
+											"model": {
+												"$ref": "AAAAAAFld6GvNDQt/xE="
+											},
+											"font": "Arial;13;0",
+											"left": 332,
+											"top": 399,
+											"width": 211,
+											"height": 13,
+											"alpha": -1.5203340932105096,
+											"distance": 198.25236442474022,
+											"hostEdge": {
+												"$ref": "AAAAAAFld6GvNDQvp70="
+											},
+											"edgePosition": 1,
+											"text": "3.5.Generar orden de mantenimiento"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFld49LZTORRjM="
+									},
+									"tail": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"lineStyle": 2,
+									"points": "592:416;240:416;240:255",
+									"nameLabel": {
+										"$ref": "AAAAAAFld6GvNDQwaZU="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld+V/PzRCLmo=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld+V/PzRAnWM="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld+V/PzRDsjs=",
+											"_parent": {
+												"$ref": "AAAAAAFld+V/PzRCLmo="
+											},
+											"model": {
+												"$ref": "AAAAAAFld+V/PzRAnWM="
+											},
+											"font": "Arial;13;0",
+											"left": 367,
+											"top": 167,
+											"width": 202,
+											"height": 13,
+											"alpha": -1.623937786538107,
+											"distance": 188.26576959181932,
+											"hostEdge": {
+												"$ref": "AAAAAAFld+V/PzRCLmo="
+											},
+											"edgePosition": 1,
+											"text": "3.6.Subir factura de mantenimiento"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld49LZTORRjM="
+									},
+									"lineStyle": 2,
+									"points": "319:184;656:184;656:360",
+									"nameLabel": {
+										"$ref": "AAAAAAFld+V/PzRDsjs="
+									}
+								},
+								{
+									"_type": "DFDExternalEntityView",
+									"_id": "AAAAAAFld+aLAjRQ18k=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld+aLAjRO8ow="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld+aLAjRWQuY=",
+											"_parent": {
+												"$ref": "AAAAAAFld+aLAjRQ18k="
+											},
+											"font": "Arial;13;0",
+											"left": 1114,
+											"top": 605,
+											"width": 109,
+											"height": 13,
+											"text": "5"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld+aLAjRR8y0=",
+											"_parent": {
+												"$ref": "AAAAAAFld+aLAjRQ18k="
+											},
+											"font": "Arial;13;0",
+											"left": 1114,
+											"top": 623,
+											"width": 109,
+											"height": 39,
+											"text": "Secretaria (encargado del comubistible)",
+											"wordWrap": true
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFld+aLAjRS0iw=",
+											"_parent": {
+												"$ref": "AAAAAAFld+aLAjRQ18k="
+											},
+											"font": "Arial;13;0",
+											"left": 312,
+											"top": 472,
+											"height": 13
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 1104,
+									"top": 600,
+									"width": 129,
+									"height": 105,
+									"nameLabel": {
+										"$ref": "AAAAAAFld+aLAjRR8y0="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld+jeQTRnqXk=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld+jePTRl7rg="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld+jeQTRowSU=",
+											"_parent": {
+												"$ref": "AAAAAAFld+jeQTRnqXk="
+											},
+											"model": {
+												"$ref": "AAAAAAFld+jePTRl7rg="
+											},
+											"font": "Arial;13;0",
+											"left": 863,
+											"top": 398,
+											"width": 262,
+											"height": 13,
+											"alpha": -0.09295171684138603,
+											"distance": 118.51160280748886,
+											"hostEdge": {
+												"$ref": "AAAAAAFld+jeQTRnqXk="
+											},
+											"edgePosition": 1,
+											"text": "5.1. solicitud de orden combustible (opcional)"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld5Fg0zO5m2s="
+									},
+									"lineStyle": 2,
+									"points": "1112:279;1112:416;855:416",
+									"nameLabel": {
+										"$ref": "AAAAAAFld+jeQTRowSU="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld+x8FjR4VMc=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld+x8FjR21W4="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld+x8FjR5qyQ=",
+											"_parent": {
+												"$ref": "AAAAAAFld+x8FjR4VMc="
+											},
+											"model": {
+												"$ref": "AAAAAAFld+x8FjR21W4="
+											},
+											"font": "Arial;13;0",
+											"left": 879,
+											"top": 599,
+											"width": 196,
+											"height": 13,
+											"alpha": -1.4181477498448052,
+											"distance": 13.152946437965905,
+											"hostEdge": {
+												"$ref": "AAAAAAFld+x8FjR4VMc="
+											},
+											"edgePosition": 1,
+											"text": "5.3.Generar orden de combustible"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld+aLAjRQ18k="
+									},
+									"lineStyle": 2,
+									"points": "1104:619;855:619",
+									"nameLabel": {
+										"$ref": "AAAAAAFld+x8FjR5qyQ="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld+0STzSEM3g=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld+0STzSCu8U="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld+0STzSFkg8=",
+											"_parent": {
+												"$ref": "AAAAAAFld+0STzSEM3g="
+											},
+											"model": {
+												"$ref": "AAAAAAFld+0STzSCu8U="
+											},
+											"font": "Arial;13;0",
+											"left": 879,
+											"top": 655,
+											"width": 187,
+											"height": 13,
+											"alpha": -1.4862523345100922,
+											"distance": 118.4229707446997,
+											"hostEdge": {
+												"$ref": "AAAAAAFld+0STzSEM3g="
+											},
+											"edgePosition": 1,
+											"text": "5.4.Subir factura de combustible"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld+aLAjRQ18k="
+									},
+									"lineStyle": 2,
+									"points": "1104:672;855:672;855:631",
+									"nameLabel": {
+										"$ref": "AAAAAAFld+0STzSFkg8="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFld+7qPzSSvSA=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFld+7qPzSQuVs="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFld+7qPzSTAxY=",
+											"_parent": {
+												"$ref": "AAAAAAFld+7qPzSSvSA="
+											},
+											"model": {
+												"$ref": "AAAAAAFld+7qPzSQuVs="
+											},
+											"font": "Arial;13;0",
+											"left": 885,
+											"top": 543,
+											"width": 213,
+											"height": 13,
+											"alpha": -1.6396530708296695,
+											"distance": 145.34441853748632,
+											"hostEdge": {
+												"$ref": "AAAAAAFld+7qPzSSvSA="
+											},
+											"edgePosition": 1,
+											"text": "5.2.Notificar solicitud de combustible"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFld+aLAjRQ18k="
+									},
+									"tail": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"lineStyle": 2,
+									"points": "855:560;1136:560;1136:600",
+									"nameLabel": {
+										"$ref": "AAAAAAFld+7qPzSTAxY="
+									}
+								},
+								{
+									"_type": "DFDDataFlowView",
+									"_id": "AAAAAAFleDafTDV68TM=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBx21JvefaU="
+									},
+									"model": {
+										"$ref": "AAAAAAFleDafTDV4tic="
+									},
+									"subViews": [
+										{
+											"_type": "EdgeLabelView",
+											"_id": "AAAAAAFleDafTDV7Y8M=",
+											"_parent": {
+												"$ref": "AAAAAAFleDafTDV68TM="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDafTDV4tic="
+											},
+											"font": "Arial;13;0",
+											"left": 340,
+											"top": 536,
+											"width": 146,
+											"height": 13,
+											"alpha": 0.06360833751170059,
+											"distance": 157.31814898478814,
+											"hostEdge": {
+												"$ref": "AAAAAAFleDafTDV68TM="
+											},
+											"edgePosition": 1,
+											"text": "2.4.asignar rol a usuarios"
+										}
+									],
+									"font": "Arial;13;0",
+									"head": {
+										"$ref": "AAAAAAFlVBzWyJvlMTw="
+									},
+									"tail": {
+										"$ref": "AAAAAAFld4OKyTMTr4U="
+									},
+									"lineStyle": 2,
+									"points": "256:632;256:552;592:552",
+									"nameLabel": {
+										"$ref": "AAAAAAFleDafTDV7Y8M="
 									}
 								}
 							]
@@ -95,6 +1154,2104 @@
 								"$ref": "AAAAAAFlVBx21Jvdnzw="
 							},
 							"name": "Sistema de gestion de transporte",
+							"ownedElements": [
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAFld5QUVTPdCYI=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "3.2.Notificar solicitud de revision",
+									"source": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"target": {
+										"$ref": "AAAAAAFld49LZTOPdHw="
+									}
+								},
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAFld6GvNDQt/xE=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "3.5.Generar orden de mantenimiento",
+									"source": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"target": {
+										"$ref": "AAAAAAFld49LZTOPdHw="
+									}
+								},
+								{
+									"_type": "DFDDataFlow",
+									"_id": "AAAAAAFld+7qPzSQuVs=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "5.2.Notificar solicitud de combustible",
+									"source": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"target": {
+										"$ref": "AAAAAAFld+aLAjRO8ow="
+									}
+								},
+								{
+									"_type": "DFDDiagram",
+									"_id": "AAAAAAFld/Ze6jSggx4=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Diagrama de Sistemas",
+									"ownedViews": [
+										{
+											"_type": "DFDProcessView",
+											"_id": "AAAAAAFld/c6CTSmXz0=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFld/c6CTSkK4Y="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFld/c6CTSn7jA=",
+													"_parent": {
+														"$ref": "AAAAAAFld/c6CTSmXz0="
+													},
+													"font": "Arial;13;0",
+													"left": 322,
+													"top": 48,
+													"width": 117,
+													"height": 13,
+													"text": "Registrar Persona",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFld/c6CTSoJCk=",
+													"_parent": {
+														"$ref": "AAAAAAFld/c6CTSmXz0="
+													},
+													"font": "Arial;13;0",
+													"left": 322,
+													"top": 21,
+													"width": 117,
+													"height": 13,
+													"text": "1.1"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 312,
+											"top": 16,
+											"width": 137,
+											"height": 73,
+											"nameLabel": {
+												"$ref": "AAAAAAFld/c6CTSn7jA="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFld/c6CTSoJCk="
+											}
+										},
+										{
+											"_type": "DFDDataStoreView",
+											"_id": "AAAAAAFld/fp+TS5Emw=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFld/fp+TS3RpI="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFld/fp+TS6yic=",
+													"_parent": {
+														"$ref": "AAAAAAFld/fp+TS5Emw="
+													},
+													"font": "Arial;13;0",
+													"left": 374,
+													"top": 146,
+													"width": 48,
+													"height": 13,
+													"text": "Persona",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFld/fp+TS75Jw=",
+													"_parent": {
+														"$ref": "AAAAAAFld/fp+TS5Emw="
+													},
+													"font": "Arial;13;0",
+													"left": 341,
+													"top": 146,
+													"width": 18,
+													"height": 13,
+													"text": "1.2"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 336,
+											"top": 136,
+											"width": 96,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFld/fp+TS6yic="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFld/fp+TS75Jw="
+											}
+										},
+										{
+											"_type": "DFDExternalEntityView",
+											"_id": "AAAAAAFleBvp6jTXgig=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleBvp6jTVk9o="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleBvp6jTd2G4=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTXgig="
+													},
+													"font": "Arial;13;0",
+													"left": 26,
+													"top": 157,
+													"width": 113,
+													"height": 13
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleBvp6jTYfmQ=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTXgig="
+													},
+													"font": "Arial;13;0",
+													"left": 26,
+													"top": 162,
+													"width": 113,
+													"height": 13,
+													"text": "administrador",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleBvp6jTZslg=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTXgig="
+													},
+													"font": "Arial;13;0",
+													"left": -24,
+													"top": -16,
+													"height": 13
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 16,
+											"top": 152,
+											"width": 133,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFleBvp6jTYfmQ="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleByGyjTooWY=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleByGyjTm1bA="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleByGyjTpTEA=",
+													"_parent": {
+														"$ref": "AAAAAAFleByGyjTooWY="
+													},
+													"model": {
+														"$ref": "AAAAAAFleByGyjTm1bA="
+													},
+													"font": "Arial;13;0",
+													"left": 66,
+													"top": -32,
+													"width": 96,
+													"height": 13,
+													"alpha": -4.847365592854598,
+													"distance": 81.74350127074322,
+													"hostEdge": {
+														"$ref": "AAAAAAFleByGyjTooWY="
+													},
+													"edgePosition": 1,
+													"text": "Ingregar persona"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFld/c6CTSmXz0="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleBvp6jTXgig="
+											},
+											"lineStyle": 2,
+											"points": "104:152;104:56;312:56",
+											"nameLabel": {
+												"$ref": "AAAAAAFleByGyjTpTEA="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleB1GFDT2RRc=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleB1GFDT0z/U="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleB1GFDT3W54=",
+													"_parent": {
+														"$ref": "AAAAAAFleB1GFDT2RRc="
+													},
+													"model": {
+														"$ref": "AAAAAAFleB1GFDT0z/U="
+													},
+													"font": "Arial;13;0",
+													"left": 336,
+													"top": 105,
+													"width": 93,
+													"height": 13,
+													"alpha": 2.3561892629446177,
+													"distance": 1.4142135623730951,
+													"hostEdge": {
+														"$ref": "AAAAAAFleB1GFDT2RRc="
+													},
+													"edgePosition": 1,
+													"text": "guardar persona"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFld/fp+TS5Emw="
+											},
+											"tail": {
+												"$ref": "AAAAAAFld/c6CTSmXz0="
+											},
+											"lineStyle": 2,
+											"points": "381:88;381:136",
+											"nameLabel": {
+												"$ref": "AAAAAAFleB1GFDT3W54="
+											}
+										},
+										{
+											"_type": "DFDProcessView",
+											"_id": "AAAAAAFleCyLDzUFmmU=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleCyLDzUG04k=",
+													"_parent": {
+														"$ref": "AAAAAAFleCyLDzUFmmU="
+													},
+													"font": "Arial;13;0",
+													"left": 322,
+													"top": 256,
+													"width": 117,
+													"height": 13,
+													"text": "Registrar Usuario",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleCyLDzUHqy8=",
+													"_parent": {
+														"$ref": "AAAAAAFleCyLDzUFmmU="
+													},
+													"font": "Arial;13;0",
+													"left": 322,
+													"top": 229,
+													"width": 117,
+													"height": 13,
+													"text": "1.3"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 312,
+											"top": 224,
+											"width": 137,
+											"height": 69,
+											"nameLabel": {
+												"$ref": "AAAAAAFleCyLDzUG04k="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleCyLDzUHqy8="
+											}
+										},
+										{
+											"_type": "DFDDataStoreView",
+											"_id": "AAAAAAFleC0N+TUUsCU=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleC0N+TUSUmY="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleC0N+TUVVmk=",
+													"_parent": {
+														"$ref": "AAAAAAFleC0N+TUUsCU="
+													},
+													"font": "Arial;13;0",
+													"left": 606,
+													"top": 330,
+													"width": 47,
+													"height": 13,
+													"text": "users",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleC0N+TUWqlw=",
+													"_parent": {
+														"$ref": "AAAAAAFleC0N+TUUsCU="
+													},
+													"font": "Arial;13;0",
+													"left": 573,
+													"top": 330,
+													"width": 18,
+													"height": 13,
+													"text": "1.4"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 568,
+											"top": 320,
+											"width": 95,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFleC0N+TUVVmk="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleC0N+TUWqlw="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleC743jUqe0Q=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleC743jUoTO8="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleC743jUrK+8=",
+													"_parent": {
+														"$ref": "AAAAAAFleC743jUqe0Q="
+													},
+													"model": {
+														"$ref": "AAAAAAFleC743jUoTO8="
+													},
+													"font": "Arial;13;0",
+													"left": 331,
+													"top": 315,
+													"width": 98,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 15,
+													"hostEdge": {
+														"$ref": "AAAAAAFleC743jUqe0Q="
+													},
+													"edgePosition": 1,
+													"text": "Registrar usuario"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleC0N+TUUsCU="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleCyLDzUFmmU="
+											},
+											"lineStyle": 2,
+											"points": "380:292;380:336;568:336",
+											"nameLabel": {
+												"$ref": "AAAAAAFleC743jUrK+8="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleDFWejU2h9w=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDFWeTU0ovA="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleDFWejU3WVg=",
+													"_parent": {
+														"$ref": "AAAAAAFleDFWejU2h9w="
+													},
+													"model": {
+														"$ref": "AAAAAAFleDFWeTU0ovA="
+													},
+													"font": "Arial;13;0",
+													"left": 323,
+													"top": 189,
+													"width": 150,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 15,
+													"hostEdge": {
+														"$ref": "AAAAAAFleDFWejU2h9w="
+													},
+													"edgePosition": 1,
+													"text": "Obtener datos de persona"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleCyLDzUFmmU="
+											},
+											"tail": {
+												"$ref": "AAAAAAFld/fp+TS5Emw="
+											},
+											"lineStyle": 2,
+											"points": "384:168;384:224",
+											"nameLabel": {
+												"$ref": "AAAAAAFleDFWejU3WVg="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleDK1SzVA5hs=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDK1SzU+bbU="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleDK1SzVBNMY=",
+													"_parent": {
+														"$ref": "AAAAAAFleDK1SzVA5hs="
+													},
+													"model": {
+														"$ref": "AAAAAAFleDK1SzU+bbU="
+													},
+													"font": "Arial;13;0",
+													"left": 187,
+													"top": 224,
+													"width": 91,
+													"height": 13,
+													"alpha": 0.11848994518385209,
+													"distance": 84.5931439302264,
+													"hostEdge": {
+														"$ref": "AAAAAAFleDK1SzVA5hs="
+													},
+													"edgePosition": 1,
+													"text": "Agregar usuario"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleCyLDzUFmmU="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleBvp6jTXgig="
+											},
+											"lineStyle": 2,
+											"points": "148:184;148:240;312:240",
+											"nameLabel": {
+												"$ref": "AAAAAAFleDK1SzVBNMY="
+											}
+										},
+										{
+											"_type": "DFDDataStoreView",
+											"_id": "AAAAAAFleDO7PTVMKYI=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDO7PTVKhSk="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleDO7PjVNuIw=",
+													"_parent": {
+														"$ref": "AAAAAAFleDO7PTVMKYI="
+													},
+													"font": "Arial;13;0",
+													"left": 438,
+													"top": 378,
+													"width": 47,
+													"height": 13,
+													"text": "role",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleDO7PjVOXuQ=",
+													"_parent": {
+														"$ref": "AAAAAAFleDO7PTVMKYI="
+													},
+													"font": "Arial;13;0",
+													"left": 405,
+													"top": 378,
+													"width": 18,
+													"height": 13,
+													"text": "1.6"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 400,
+											"top": 368,
+											"width": 95,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFleDO7PjVNuIw="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleDO7PjVOXuQ="
+											}
+										},
+										{
+											"_type": "DFDProcessView",
+											"_id": "AAAAAAFleDPz/TVYkhg=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleDPz/TVZfDM=",
+													"_parent": {
+														"$ref": "AAAAAAFleDPz/TVYkhg="
+													},
+													"font": "Arial;13;0",
+													"left": 122,
+													"top": 336,
+													"width": 93,
+													"height": 13,
+													"text": "Registrar rol",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleDPz/TVajdQ=",
+													"_parent": {
+														"$ref": "AAAAAAFleDPz/TVYkhg="
+													},
+													"font": "Arial;13;0",
+													"left": 122,
+													"top": 309,
+													"width": 93,
+													"height": 13,
+													"text": "1.5"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 112,
+											"top": 304,
+											"width": 113,
+											"height": 69,
+											"nameLabel": {
+												"$ref": "AAAAAAFleDPz/TVZfDM="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleDPz/TVajdQ="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleDRPejVo2y4=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDRPejVmhtI="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleDRPejVp17c=",
+													"_parent": {
+														"$ref": "AAAAAAFleDRPejVo2y4="
+													},
+													"model": {
+														"$ref": "AAAAAAFleDRPejVmhtI="
+													},
+													"font": "Arial;13;0",
+													"left": 104,
+													"top": 247,
+													"width": 63,
+													"height": 13,
+													"alpha": 0.6107264688631661,
+													"distance": 12.206555615733702,
+													"hostEdge": {
+														"$ref": "AAAAAAFleDRPejVo2y4="
+													},
+													"edgePosition": 1,
+													"text": "Agregar rol"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleDPz/TVYkhg="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleBvp6jTXgig="
+											},
+											"lineStyle": 2,
+											"points": "128:184;128:304",
+											"nameLabel": {
+												"$ref": "AAAAAAFleDRPejVp17c="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleDs6qDWj2hI=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDs6qDWh3RM="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleDs6qDWkpj0=",
+													"_parent": {
+														"$ref": "AAAAAAFleDs6qDWj2hI="
+													},
+													"model": {
+														"$ref": "AAAAAAFleDs6qDWh3RM="
+													},
+													"font": "Arial;13;0",
+													"left": 231,
+													"top": 371,
+													"width": 80,
+													"height": 13,
+													"alpha": 0.18763974860610122,
+													"distance": 80.4114419718985,
+													"hostEdge": {
+														"$ref": "AAAAAAFleDs6qDWj2hI="
+													},
+													"edgePosition": 1,
+													"text": "Almacenar rol"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleDO7PTVMKYI="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleDPz/TVYkhg="
+											},
+											"lineStyle": 2,
+											"points": "192:372;192:392;400:392",
+											"nameLabel": {
+												"$ref": "AAAAAAFleDs6qDWkpj0="
+											}
+										},
+										{
+											"_type": "DFDProcessView",
+											"_id": "AAAAAAFleDyT1jWzf3I=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleDyT1DWxbh0="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleDyT1jW0sqI=",
+													"_parent": {
+														"$ref": "AAAAAAFleDyT1jWzf3I="
+													},
+													"font": "Arial;13;0",
+													"left": 194,
+													"top": 456,
+													"width": 117,
+													"height": 26,
+													"text": "Asignar rol a usuario",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleDyT1jW16SU=",
+													"_parent": {
+														"$ref": "AAAAAAFleDyT1jWzf3I="
+													},
+													"font": "Arial;13;0",
+													"left": 194,
+													"top": 429,
+													"width": 117,
+													"height": 13,
+													"text": "1.7"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 184,
+											"top": 424,
+											"width": 137,
+											"height": 82,
+											"nameLabel": {
+												"$ref": "AAAAAAFleDyT1jW0sqI="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleDyT1jW16SU="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleD1lwTXJdoY=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleD1lwTXHnXg="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleD1lwTXKxbQ=",
+													"_parent": {
+														"$ref": "AAAAAAFleD1lwTXJdoY="
+													},
+													"model": {
+														"$ref": "AAAAAAFleD1lwTXHnXg="
+													},
+													"font": "Arial;13;0",
+													"left": 111,
+													"top": 435,
+													"width": 62,
+													"height": 13,
+													"alpha": 0.31521463567554203,
+													"distance": 48.38388161361178,
+													"hostEdge": {
+														"$ref": "AAAAAAFleD1lwTXJdoY="
+													},
+													"edgePosition": 1,
+													"text": "Asignar rol"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleDyT1jWzf3I="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleBvp6jTXgig="
+											},
+											"lineStyle": 2,
+											"points": "96:184;96:456;184:456",
+											"nameLabel": {
+												"$ref": "AAAAAAFleD1lwTXKxbQ="
+											}
+										},
+										{
+											"_type": "DFDDataStoreView",
+											"_id": "AAAAAAFleD2+dTXWgic=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleD2+dTXUA4U="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleD2+dTXXmF4=",
+													"_parent": {
+														"$ref": "AAAAAAFleD2+dTXWgic="
+													},
+													"font": "Arial;13;0",
+													"left": 214,
+													"top": 570,
+													"width": 91,
+													"height": 13,
+													"text": "model_has_role",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleD2+dTXYG3U=",
+													"_parent": {
+														"$ref": "AAAAAAFleD2+dTXWgic="
+													},
+													"font": "Arial;13;0",
+													"left": 181,
+													"top": 570,
+													"width": 18,
+													"height": 13,
+													"text": "1.8"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 176,
+											"top": 560,
+											"width": 139,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFleD2+dTXXmF4="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleD2+dTXYG3U="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleD9IrzXsG6A=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleD9IrzXq6DI="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleD9IrzXtG1Y=",
+													"_parent": {
+														"$ref": "AAAAAAFleD9IrzXsG6A="
+													},
+													"model": {
+														"$ref": "AAAAAAFleD9IrzXq6DI="
+													},
+													"font": "Arial;13;0",
+													"left": 384,
+													"top": 439,
+													"width": 61,
+													"height": 13,
+													"alpha": -0.7853986633976984,
+													"distance": 14.142135623730951,
+													"hostEdge": {
+														"$ref": "AAAAAAFleD9IrzXsG6A="
+													},
+													"edgePosition": 1,
+													"text": "obtener rol"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleDyT1jWzf3I="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleDO7PTVMKYI="
+											},
+											"lineStyle": 2,
+											"points": "424:400;424:456;320:456",
+											"nameLabel": {
+												"$ref": "AAAAAAFleD9IrzXtG1Y="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleD/o2jX4sO4=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleD/o2TX2N/c="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleD/o2jX5/bc=",
+													"_parent": {
+														"$ref": "AAAAAAFleD/o2jX4sO4="
+													},
+													"model": {
+														"$ref": "AAAAAAFleD/o2TX2N/c="
+													},
+													"font": "Arial;13;0",
+													"left": 479,
+													"top": 455,
+													"width": 96,
+													"height": 13,
+													"alpha": -0.15264935151665604,
+													"distance": 65.76473218982953,
+													"hostEdge": {
+														"$ref": "AAAAAAFleD/o2jX4sO4="
+													},
+													"edgePosition": 1,
+													"text": "obtener usuario"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleDyT1jWzf3I="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleC0N+TUUsCU="
+											},
+											"lineStyle": 2,
+											"points": "592:352;592:472;320:472",
+											"nameLabel": {
+												"$ref": "AAAAAAFleD/o2jX5/bc="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleEDLJjYIl+w=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleEDLJjYG+kQ="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleEDLJjYJHkU=",
+													"_parent": {
+														"$ref": "AAAAAAFleEDLJjYIl+w="
+													},
+													"model": {
+														"$ref": "AAAAAAFleEDLJjYG+kQ="
+													},
+													"font": "Arial;13;0",
+													"left": 180,
+													"top": 525,
+													"width": 166,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 15,
+													"hostEdge": {
+														"$ref": "AAAAAAFleEDLJjYIl+w="
+													},
+													"edgePosition": 1,
+													"text": "almacenando roles y modelo"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleD2+dTXWgic="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleDyT1jWzf3I="
+											},
+											"lineStyle": 2,
+											"points": "249:505;249:560",
+											"nameLabel": {
+												"$ref": "AAAAAAFleEDLJjYJHkU="
+											}
+										},
+										{
+											"_type": "DFDProcessView",
+											"_id": "AAAAAAFleEZbRTYZBIs=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleEZbRTYaDnA=",
+													"_parent": {
+														"$ref": "AAAAAAFleEZbRTYZBIs="
+													},
+													"font": "Arial;13;0",
+													"left": 242,
+													"top": 640,
+													"width": 124,
+													"height": 13,
+													"text": "Asignar privilegios",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleEZbRTYbnbI=",
+													"_parent": {
+														"$ref": "AAAAAAFleEZbRTYZBIs="
+													},
+													"font": "Arial;13;0",
+													"left": 242,
+													"top": 613,
+													"width": 124,
+													"height": 13,
+													"text": "1.9"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 232,
+											"top": 608,
+											"width": 144,
+											"height": 80,
+											"nameLabel": {
+												"$ref": "AAAAAAFleEZbRTYaDnA="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleEZbRTYbnbI="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleEo6iDZir1Q=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleEo6iDZgs18="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleEo6iDZjk/c=",
+													"_parent": {
+														"$ref": "AAAAAAFleEo6iDZir1Q="
+													},
+													"model": {
+														"$ref": "AAAAAAFleEo6iDZgs18="
+													},
+													"font": "Arial;13;0",
+													"left": 23,
+													"top": 640,
+													"width": 104,
+													"height": 13,
+													"alpha": 0.6857290653619745,
+													"distance": 14.212670403551895,
+													"hostEdge": {
+														"$ref": "AAAAAAFleEo6iDZir1Q="
+													},
+													"edgePosition": 1,
+													"text": "Asignar privilegios"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleEZbRTYZBIs="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleBvp6jTXgig="
+											},
+											"lineStyle": 2,
+											"points": "64:184;64:655;232:655",
+											"nameLabel": {
+												"$ref": "AAAAAAFleEo6iDZjk/c="
+											}
+										},
+										{
+											"_type": "DFDDataStoreView",
+											"_id": "AAAAAAFleEsU1zZ3TQE=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleEsU1zZ1hl0="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleEsU1zZ4Nms=",
+													"_parent": {
+														"$ref": "AAAAAAFleEsU1zZ3TQE="
+													},
+													"font": "Arial;13;0",
+													"left": 453,
+													"top": 738,
+													"width": 119,
+													"height": 13,
+													"text": "role_has_permission",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleEsU1zZ5daI=",
+													"_parent": {
+														"$ref": "AAAAAAFleEsU1zZ3TQE="
+													},
+													"font": "Arial;13;0",
+													"left": 413,
+													"top": 738,
+													"width": 25,
+													"height": 13,
+													"text": "1.20"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 408,
+											"top": 728,
+											"width": 174,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFleEsU1zZ4Nms="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleEsU1zZ5daI="
+											}
+										},
+										{
+											"_type": "DFDDataStoreView",
+											"_id": "AAAAAAFleEt5qTaEHrQ=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleEt5qDaCq7g="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleEt5qTaF7GQ=",
+													"_parent": {
+														"$ref": "AAAAAAFleEt5qTaEHrQ="
+													},
+													"font": "Arial;13;0",
+													"left": 85,
+													"top": 738,
+													"width": 133,
+													"height": 13,
+													"text": "model_has_permission",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleEt5qTaGbLU=",
+													"_parent": {
+														"$ref": "AAAAAAFleEt5qTaEHrQ="
+													},
+													"font": "Arial;13;0",
+													"left": 45,
+													"top": 738,
+													"width": 25,
+													"height": 13,
+													"text": "1.21"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 40,
+											"top": 728,
+											"width": 188,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFleEt5qTaF7GQ="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleEt5qTaGbLU="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleEwxwzaTYNU=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleEwxwTaRSJQ="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleEwxwzaUX+k=",
+													"_parent": {
+														"$ref": "AAAAAAFleEwxwzaTYNU="
+													},
+													"model": {
+														"$ref": "AAAAAAFleEwxwTaRSJQ="
+													},
+													"font": "Arial;13;0",
+													"left": 384,
+													"top": 607,
+													"width": 61,
+													"height": 13,
+													"alpha": -0.19739559831142683,
+													"distance": 50.99019513592785,
+													"hostEdge": {
+														"$ref": "AAAAAAFleEwxwzaTYNU="
+													},
+													"edgePosition": 1,
+													"text": "obtener rol"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleEZbRTYZBIs="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleDO7PTVMKYI="
+											},
+											"lineStyle": 2,
+											"points": "464:400;464:624;375:624",
+											"nameLabel": {
+												"$ref": "AAAAAAFleEwxwzaUX+k="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleEzTZjalGfM=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleEzTZjajYlk="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleEzTZjamOcA=",
+													"_parent": {
+														"$ref": "AAAAAAFleEzTZjalGfM="
+													},
+													"model": {
+														"$ref": "AAAAAAFleEzTZjajYlk="
+													},
+													"font": "Arial;13;0",
+													"left": 488,
+													"top": 631,
+													"width": 89,
+													"height": 13,
+													"alpha": -0.11848997313242693,
+													"distance": 84.5931439302264,
+													"hostEdge": {
+														"$ref": "AAAAAAFleEzTZjalGfM="
+													},
+													"edgePosition": 1,
+													"text": "obtener usuario"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleEZbRTYZBIs="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleC0N+TUUsCU="
+											},
+											"lineStyle": 2,
+											"points": "616:352;616:648;375:648",
+											"nameLabel": {
+												"$ref": "AAAAAAFleEzTZjamOcA="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleE1eaza5u/0=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleE1eaza3xK4="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleE1eaza6Dlw=",
+													"_parent": {
+														"$ref": "AAAAAAFleE1eaza5u/0="
+													},
+													"model": {
+														"$ref": "AAAAAAFleE1eaza3xK4="
+													},
+													"font": "Arial;13;0",
+													"left": 135,
+													"top": 703,
+													"width": 152,
+													"height": 13,
+													"alpha": -0.24828994285386452,
+													"distance": 73.24616030891995,
+													"hostEdge": {
+														"$ref": "AAAAAAFleE1eaza5u/0="
+													},
+													"edgePosition": 1,
+													"text": "asignar privilegio a usuario"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleEt5qTaEHrQ="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleEZbRTYZBIs="
+											},
+											"lineStyle": 2,
+											"points": "282:687;282:728;227:728",
+											"nameLabel": {
+												"$ref": "AAAAAAFleE1eaza6Dlw="
+											}
+										},
+										{
+											"_type": "DFDDataFlowView",
+											"_id": "AAAAAAFleE3JNzbJF3Y=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleE3JNzbH1uc="
+											},
+											"subViews": [
+												{
+													"_type": "EdgeLabelView",
+													"_id": "AAAAAAFleE3JNzbKlJw=",
+													"_parent": {
+														"$ref": "AAAAAAFleE3JNzbJF3Y="
+													},
+													"model": {
+														"$ref": "AAAAAAFleE3JNzbH1uc="
+													},
+													"font": "Arial;13;0",
+													"left": 306,
+													"top": 707,
+													"width": 138,
+													"height": 13,
+													"alpha": 1.5707963267948966,
+													"distance": 15,
+													"hostEdge": {
+														"$ref": "AAAAAAFleE3JNzbJF3Y="
+													},
+													"edgePosition": 1,
+													"text": "asignar privilegio a roles"
+												}
+											],
+											"font": "Arial;13;0",
+											"head": {
+												"$ref": "AAAAAAFleEsU1zZ3TQE="
+											},
+											"tail": {
+												"$ref": "AAAAAAFleEZbRTYZBIs="
+											},
+											"lineStyle": 2,
+											"points": "375:687;375:728;408:728",
+											"nameLabel": {
+												"$ref": "AAAAAAFleE3JNzbKlJw="
+											}
+										},
+										{
+											"_type": "DFDDataStoreView",
+											"_id": "AAAAAAFleE5zJjbUcRM=",
+											"_parent": {
+												"$ref": "AAAAAAFld/Ze6jSggx4="
+											},
+											"model": {
+												"$ref": "AAAAAAFleE5zJjbSSQQ="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleE5zJjbV3KQ=",
+													"_parent": {
+														"$ref": "AAAAAAFleE5zJjbUcRM="
+													},
+													"font": "Arial;13;0",
+													"left": 597,
+													"top": 690,
+													"width": 63,
+													"height": 13,
+													"text": "permission",
+													"wordWrap": true
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFleE5zJjbWYSE=",
+													"_parent": {
+														"$ref": "AAAAAAFleE5zJjbUcRM="
+													},
+													"font": "Arial;13;0",
+													"left": 557,
+													"top": 690,
+													"width": 25,
+													"height": 13,
+													"text": "1.22"
+												}
+											],
+											"font": "Arial;13;0",
+											"left": 552,
+											"top": 680,
+											"width": 118,
+											"height": 33,
+											"nameLabel": {
+												"$ref": "AAAAAAFleE5zJjbV3KQ="
+											},
+											"idLabel": {
+												"$ref": "AAAAAAFleE5zJjbWYSE="
+											}
+										}
+									]
+								},
+								{
+									"_type": "DFDProcess",
+									"_id": "AAAAAAFld/c6CTSkK4Y=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Registrar Persona",
+									"ownedElements": [
+										{
+											"_type": "DFDDataStore",
+											"_id": "AAAAAAFld/fp+TS3RpI=",
+											"_parent": {
+												"$ref": "AAAAAAFld/c6CTSkK4Y="
+											},
+											"name": "Persona",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleB1GFDT0z/U=",
+													"_parent": {
+														"$ref": "AAAAAAFld/fp+TS3RpI="
+													},
+													"name": "guardar persona",
+													"source": {
+														"$ref": "AAAAAAFld/c6CTSkK4Y="
+													},
+													"target": {
+														"$ref": "AAAAAAFld/fp+TS3RpI="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleDFWeTU0ovA=",
+													"_parent": {
+														"$ref": "AAAAAAFld/fp+TS3RpI="
+													},
+													"name": "Obtener datos de persona",
+													"source": {
+														"$ref": "AAAAAAFld/fp+TS3RpI="
+													},
+													"target": {
+														"$ref": "AAAAAAFleCyLDzUD7vw="
+													}
+												}
+											],
+											"id": "1.2"
+										},
+										{
+											"_type": "DFDExternalEntity",
+											"_id": "AAAAAAFleBvp6jTVk9o=",
+											"_parent": {
+												"$ref": "AAAAAAFld/c6CTSkK4Y="
+											},
+											"name": "administrador",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleByGyjTm1bA=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"name": "Ingregar persona",
+													"source": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"target": {
+														"$ref": "AAAAAAFld/c6CTSkK4Y="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleDK1SzU+bbU=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"name": "Agregar usuario",
+													"source": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"target": {
+														"$ref": "AAAAAAFleCyLDzUD7vw="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleDRPejVmhtI=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"name": "Agregar rol",
+													"source": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"target": {
+														"$ref": "AAAAAAFleDPz/TVWU9o="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleD1lwTXHnXg=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"name": "Asignar rol",
+													"source": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"target": {
+														"$ref": "AAAAAAFleDyT1DWxbh0="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleEo6iDZgs18=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"name": "Asignar privilegios",
+													"source": {
+														"$ref": "AAAAAAFleBvp6jTVk9o="
+													},
+													"target": {
+														"$ref": "AAAAAAFleEZbRTYXPnE="
+													}
+												}
+											]
+										}
+									],
+									"documentation": "Proceso para registrar personas",
+									"id": "1.1"
+								},
+								{
+									"_type": "DFDExternalEntity",
+									"_id": "AAAAAAFld49LZTOPdHw=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Tecnico",
+									"ownedElements": [
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld5eEHTP0fLo=",
+											"_parent": {
+												"$ref": "AAAAAAFld49LZTOPdHw="
+											},
+											"name": "3.3. Enviar formulario de solicitud de mantenimiento",
+											"source": {
+												"$ref": "AAAAAAFld49LZTOPdHw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld+V/PzRAnWM=",
+											"_parent": {
+												"$ref": "AAAAAAFld49LZTOPdHw="
+											},
+											"name": "3.6.Subir factura de mantenimiento",
+											"source": {
+												"$ref": "AAAAAAFld49LZTOPdHw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										}
+									],
+									"documentation": "Usuario encargado del mantenimiento",
+									"id": "4"
+								},
+								{
+									"_type": "DFDExternalEntity",
+									"_id": "AAAAAAFld5Fg0zO3z7g=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Conductor",
+									"ownedElements": [
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld5MbYDPSS1M=",
+											"_parent": {
+												"$ref": "AAAAAAFld5Fg0zO3z7g="
+											},
+											"name": "3.1. solicitar revision de vehiculo (opcional)",
+											"source": {
+												"$ref": "AAAAAAFld5Fg0zO3z7g="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld+jePTRl7rg=",
+											"_parent": {
+												"$ref": "AAAAAAFld5Fg0zO3z7g="
+											},
+											"name": "5.1. solicitud de orden combustible (opcional)",
+											"source": {
+												"$ref": "AAAAAAFld5Fg0zO3z7g="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										}
+									],
+									"documentation": "Este usuario es solo para mostrar informacion referente al conductor",
+									"id": "3"
+								},
+								{
+									"_type": "DFDExternalEntity",
+									"_id": "AAAAAAFld+aLAjRO8ow=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Secretaria (encargado del comubistible)",
+									"ownedElements": [
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld+x8FjR21W4=",
+											"_parent": {
+												"$ref": "AAAAAAFld+aLAjRO8ow="
+											},
+											"name": "5.3.Generar orden de combustible",
+											"source": {
+												"$ref": "AAAAAAFld+aLAjRO8ow="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld+0STzSCu8U=",
+											"_parent": {
+												"$ref": "AAAAAAFld+aLAjRO8ow="
+											},
+											"name": "5.4.Subir factura de combustible",
+											"source": {
+												"$ref": "AAAAAAFld+aLAjRO8ow="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										}
+									],
+									"documentation": "Usuario encargado del combustible",
+									"id": "5"
+								},
+								{
+									"_type": "DFDExternalEntity",
+									"_id": "AAAAAAFld4OKyTMR7hw=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Administrador",
+									"ownedElements": [
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld4UE0DMhqlw=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.1. Ingresar persona",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld4VtfjMrjuk=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld4Y3QzM5YUU=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.2.Agregar usuario",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld4d6oDNMMjE=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.6.Agregar Conductor",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld4nGtDNgnJ0=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.3.Agregar roles",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld4sAtzNr2uo=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.5.Asignar privilegios",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld45k+jN/Mig=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.7.Ingresar vehiculos",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld4/poTOeG9M=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.8.Asignar conductores a vehiculos",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFld6BcTzQQUEY=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "3.4.Aprobar solicitud de mantenimiento",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFleDafTDV4tic=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"name": "2.4.asignar rol a usuarios",
+											"source": {
+												"$ref": "AAAAAAFld4OKyTMR7hw="
+											},
+											"target": {
+												"$ref": "AAAAAAFlVBzWx5vjXn0="
+											}
+										}
+									],
+									"documentation": "Rol administrador\n",
+									"id": "2"
+								},
+								{
+									"_type": "DFDProcess",
+									"_id": "AAAAAAFleCyLDzUD7vw=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Registrar Usuario",
+									"ownedElements": [
+										{
+											"_type": "DFDDataStore",
+											"_id": "AAAAAAFleC0N+TUSUmY=",
+											"_parent": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"name": "users",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleD/o2TX2N/c=",
+													"_parent": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													},
+													"name": "obtener usuario",
+													"source": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													},
+													"target": {
+														"$ref": "AAAAAAFleDyT1DWxbh0="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleEzTZjajYlk=",
+													"_parent": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													},
+													"name": "obtener usuario",
+													"source": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													},
+													"target": {
+														"$ref": "AAAAAAFleEZbRTYXPnE="
+													}
+												}
+											],
+											"id": "1.4"
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFleC743jUoTO8=",
+											"_parent": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"name": "Registrar usuario",
+											"source": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"target": {
+												"$ref": "AAAAAAFleC0N+TUSUmY="
+											}
+										}
+									],
+									"documentation": "Proceso para registrar usuario, obtiene los datos de la tabla persona\n",
+									"id": "1.3"
+								},
+								{
+									"_type": "DFDProcess",
+									"_id": "AAAAAAFleDPz/TVWU9o=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Registrar rol",
+									"ownedElements": [
+										{
+											"_type": "DFDDataStore",
+											"_id": "AAAAAAFleDO7PTVKhSk=",
+											"_parent": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"name": "role",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleD9IrzXq6DI=",
+													"_parent": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													},
+													"name": "obtener rol",
+													"source": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													},
+													"target": {
+														"$ref": "AAAAAAFleDyT1DWxbh0="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFleEwxwTaRSJQ=",
+													"_parent": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													},
+													"name": "obtener rol",
+													"source": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													},
+													"target": {
+														"$ref": "AAAAAAFleEZbRTYXPnE="
+													}
+												}
+											],
+											"id": "1.6"
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFleDs6qDWh3RM=",
+											"_parent": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"name": "Almacenar rol",
+											"source": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"target": {
+												"$ref": "AAAAAAFleDO7PTVKhSk="
+											}
+										}
+									],
+									"documentation": "Proceso para registrar los roles (ADMINISTRADOR,TECNICOS)",
+									"id": "1.5"
+								},
+								{
+									"_type": "DFDProcess",
+									"_id": "AAAAAAFleDyT1DWxbh0=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Asignar rol a usuario",
+									"ownedElements": [
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFleEDLJjYG+kQ=",
+											"_parent": {
+												"$ref": "AAAAAAFleDyT1DWxbh0="
+											},
+											"name": "almacenando roles y modelo",
+											"source": {
+												"$ref": "AAAAAAFleDyT1DWxbh0="
+											},
+											"target": {
+												"$ref": "AAAAAAFleD2+dTXUA4U="
+											}
+										},
+										{
+											"_type": "DFDDataStore",
+											"_id": "AAAAAAFleD2+dTXUA4U=",
+											"_parent": {
+												"$ref": "AAAAAAFleDyT1DWxbh0="
+											},
+											"name": "model_has_role",
+											"documentation": "Tabla de la libreria lavarel permision para asignar los roles con usuarios",
+											"id": "1.8"
+										}
+									],
+									"documentation": "Procceso para asignar roles a los usuarios utilizando la libreria de laravel permission",
+									"id": "1.7"
+								},
+								{
+									"_type": "DFDProcess",
+									"_id": "AAAAAAFleEZbRTYXPnE=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "Asignar privilegios",
+									"ownedElements": [
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFleEdrcjYob4k=",
+											"_parent": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											},
+											"source": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											},
+											"target": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFleE1eaza3xK4=",
+											"_parent": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											},
+											"name": "asignar privilegio a usuario",
+											"source": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											},
+											"target": {
+												"$ref": "AAAAAAFleEt5qDaCq7g="
+											}
+										},
+										{
+											"_type": "DFDDataFlow",
+											"_id": "AAAAAAFleE3JNzbH1uc=",
+											"_parent": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											},
+											"name": "asignar privilegio a roles",
+											"source": {
+												"$ref": "AAAAAAFleEZbRTYXPnE="
+											},
+											"target": {
+												"$ref": "AAAAAAFleEsU1zZ1hl0="
+											}
+										}
+									],
+									"documentation": "Proceso para asignar los permisos usando la libreria laravel permission, se pueden asignar permisos por roles y por usuarios",
+									"id": "1.9"
+								},
+								{
+									"_type": "DFDDataStore",
+									"_id": "AAAAAAFleEsU1zZ1hl0=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "role_has_permission",
+									"documentation": "tabla en donde se almacenaran los permisos que tendran los roles\n",
+									"id": "1.20"
+								},
+								{
+									"_type": "DFDDataStore",
+									"_id": "AAAAAAFleEt5qDaCq7g=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "model_has_permission",
+									"documentation": "tabla de laravel permission en donde se almacenaran los permisos directamente a usuarios",
+									"id": "1.21"
+								},
+								{
+									"_type": "DFDDataStore",
+									"_id": "AAAAAAFleE5zJjbSSQQ=",
+									"_parent": {
+										"$ref": "AAAAAAFlVBzWx5vjXn0="
+									},
+									"name": "permission",
+									"documentation": "Tabla permission de lavarel permission , se almacenaran todos los permisos para el sistema",
+									"id": "1.22"
+								}
+							],
 							"documentation": "Diagrama de contexto.\nFuncionalidades generales",
 							"id": "1"
 						}
