@@ -98,6 +98,19 @@
 									"subViews": [
 										{
 											"_type": "LabelView",
+											"_id": "AAAAAAFlgxmUe68eYhI=",
+											"_parent": {
+												"$ref": "AAAAAAFld4OKyTMTr4U="
+											},
+											"font": "Arial;13;0",
+											"left": 162,
+											"top": 637,
+											"width": 145,
+											"height": 13,
+											"text": "2"
+										},
+										{
+											"_type": "LabelView",
 											"_id": "AAAAAAFld4OKyTMZyHY=",
 											"_parent": {
 												"$ref": "AAAAAAFld4OKyTMTr4U="
@@ -432,6 +445,19 @@
 									"subViews": [
 										{
 											"_type": "LabelView",
+											"_id": "AAAAAAFlgxmUh682j4g=",
+											"_parent": {
+												"$ref": "AAAAAAFld49LZTORRjM="
+											},
+											"font": "Arial;13;0",
+											"left": 202,
+											"top": 141,
+											"width": 108,
+											"height": 13,
+											"text": "4"
+										},
+										{
+											"_type": "LabelView",
 											"_id": "AAAAAAFld49LZTOXMFw=",
 											"_parent": {
 												"$ref": "AAAAAAFld49LZTORRjM="
@@ -533,6 +559,19 @@
 										"$ref": "AAAAAAFld5Fg0zO3z7g="
 									},
 									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFlgxmUh68/cVo=",
+											"_parent": {
+												"$ref": "AAAAAAFld5Fg0zO5m2s="
+											},
+											"font": "Arial;13;0",
+											"left": 1026,
+											"top": 173,
+											"width": 116,
+											"height": 13,
+											"text": "3"
+										},
 										{
 											"_type": "LabelView",
 											"_id": "AAAAAAFld5Fg0zO/VNc=",
@@ -867,6 +906,19 @@
 										"$ref": "AAAAAAFld+aLAjRO8ow="
 									},
 									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAFlgxmUl69XkB0=",
+											"_parent": {
+												"$ref": "AAAAAAFld+aLAjRQ18k="
+											},
+											"font": "Arial;13;0",
+											"left": 1114,
+											"top": 605,
+											"width": 109,
+											"height": 13,
+											"text": "5"
+										},
 										{
 											"_type": "LabelView",
 											"_id": "AAAAAAFld+aLAjRWQuY=",
@@ -1315,6 +1367,18 @@
 												"$ref": "AAAAAAFleBvp6jTVk9o="
 											},
 											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAFlgxmUo6972Ns=",
+													"_parent": {
+														"$ref": "AAAAAAFleBvp6jTXgig="
+													},
+													"font": "Arial;13;0",
+													"left": 26,
+													"top": 157,
+													"width": 113,
+													"height": 13
+												},
 												{
 													"_type": "LabelView",
 													"_id": "AAAAAAFleBvp6jTd2G4=",
@@ -3133,6 +3197,19 @@
 													"target": {
 														"$ref": "AAAAAAFleImrmDblmlk="
 													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg14NXLKJ8b4=",
+													"_parent": {
+														"$ref": "AAAAAAFld/fp+TS3RpI="
+													},
+													"source": {
+														"$ref": "AAAAAAFld/fp+TS3RpI="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg1synrJdDm8="
+													}
 												}
 											],
 											"id": "1.2"
@@ -3244,6 +3321,551 @@
 													}
 												}
 											]
+										},
+										{
+											"_type": "DFDDiagram",
+											"_id": "AAAAAAFlgyTYs7DPqwY=",
+											"_parent": {
+												"$ref": "AAAAAAFld/c6CTSkK4Y="
+											},
+											"name": "Diagrama hijo Registrar persona",
+											"documentation": "Desglose del proceso de registrar persona",
+											"ownedViews": [
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlgyxE/7DlZuQ=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlgyxE/7DjiR0="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgyxE/7Dm/Aw=",
+															"_parent": {
+																"$ref": "AAAAAAFlgyxE/7DlZuQ="
+															},
+															"font": "Arial;13;0",
+															"left": 138,
+															"top": 128,
+															"width": 85,
+															"height": 26,
+															"text": "Obtener datos del formulario",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgyxE/7Dn1Zw=",
+															"_parent": {
+																"$ref": "AAAAAAFlgyxE/7DlZuQ="
+															},
+															"font": "Arial;13;0",
+															"left": 138,
+															"top": 101,
+															"width": 85,
+															"height": 13,
+															"text": "1.1.1"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 128,
+													"top": 96,
+													"width": 105,
+													"height": 69,
+													"nameLabel": {
+														"$ref": "AAAAAAFlgyxE/7Dm/Aw="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlgyxE/7Dn1Zw="
+													}
+												},
+												{
+													"_type": "DFDDataStoreView",
+													"_id": "AAAAAAFlgzHID7EDsHY=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlgzGSqrD5M78="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgzHID7EEFk8=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzHID7EDsHY="
+															},
+															"font": "Arial;13;0",
+															"left": 646,
+															"top": 122,
+															"width": 59,
+															"height": 13,
+															"text": "Persona",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgzHID7EFNeQ=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzHID7EDsHY="
+															},
+															"font": "Arial;13;0",
+															"left": 613,
+															"top": 122,
+															"width": 18,
+															"height": 13,
+															"text": "1.2"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 608,
+													"top": 112,
+													"width": 107,
+													"height": 33,
+													"nameLabel": {
+														"$ref": "AAAAAAFlgzHID7EEFk8="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlgzHID7EFNeQ="
+													}
+												},
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlgzJpBLEYLLw=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlgzJpBLEWCeo="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgzJpBLEZC7w=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzJpBLEYLLw="
+															},
+															"font": "Arial;13;0",
+															"left": 362,
+															"top": 280,
+															"width": 77,
+															"height": 26,
+															"text": "Crear persona",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgzJpBLEau2M=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzJpBLEYLLw="
+															},
+															"font": "Arial;13;0",
+															"left": 362,
+															"top": 253,
+															"width": 77,
+															"height": 13
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 352,
+													"top": 248,
+													"width": 97,
+													"height": 69,
+													"nameLabel": {
+														"$ref": "AAAAAAFlgzJpBLEZC7w="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlgzJpBLEau2M="
+													}
+												},
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlgzx2VbFLrow=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlgzx2ULFJ7vk="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgzx2VbFM8N0=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzx2VbFLrow="
+															},
+															"font": "Arial;13;0",
+															"left": 362,
+															"top": 128,
+															"width": 85,
+															"height": 26,
+															"text": "Validar cedula existe",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlgzx2VbFNEwE=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzx2VbFLrow="
+															},
+															"font": "Arial;13;0",
+															"left": 362,
+															"top": 101,
+															"width": 85,
+															"height": 13,
+															"text": "1.1.2"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 352,
+													"top": 96,
+													"width": 105,
+													"height": 69,
+													"nameLabel": {
+														"$ref": "AAAAAAFlgzx2VbFM8N0="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlgzx2VbFNEwE="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlgz1/vLFbgmc=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlgz1/vLFZThw="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlgz1/vLFcKzo=",
+															"_parent": {
+																"$ref": "AAAAAAFlgz1/vLFbgmc="
+															},
+															"model": {
+																"$ref": "AAAAAAFlgz1/vLFZThw="
+															},
+															"font": "Arial;13;0",
+															"left": 243,
+															"top": 111,
+															"width": 106,
+															"height": 13,
+															"alpha": 1.222024520291516,
+															"distance": 11.704699910719626,
+															"hostEdge": {
+																"$ref": "AAAAAAFlgz1/vLFbgmc="
+															},
+															"edgePosition": 1,
+															"text": "verificar existencia"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlgzx2VbFLrow="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlgyxE/7DlZuQ="
+													},
+													"lineStyle": 2,
+													"points": "232:128;352:128",
+													"nameLabel": {
+														"$ref": "AAAAAAFlgz1/vLFcKzo="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlgz+sn7FqQ0I=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlgz+snbFo/gU="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlgz+sn7Fr4lw=",
+															"_parent": {
+																"$ref": "AAAAAAFlgz+sn7FqQ0I="
+															},
+															"model": {
+																"$ref": "AAAAAAFlgz+snbFo/gU="
+															},
+															"font": "Arial;13;0",
+															"left": 460,
+															"top": 111,
+															"width": 143,
+															"height": 13,
+															"alpha": -1.4711286644028423,
+															"distance": 10.04987562112089,
+															"hostEdge": {
+																"$ref": "AAAAAAFlgz+sn7FqQ0I="
+															},
+															"edgePosition": 1,
+															"text": "obtener datos existentes"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlgzx2VbFLrow="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlgzHID7EDsHY="
+													},
+													"lineStyle": 2,
+													"points": "608:128;456:128",
+													"nameLabel": {
+														"$ref": "AAAAAAFlgz+sn7Fr4lw="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg0ajprGsQww=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg0ajprGq6O4="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg0ajprGtcIg=",
+															"_parent": {
+																"$ref": "AAAAAAFlg0ajprGsQww="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg0ajprGq6O4="
+															},
+															"font": "Arial;13;0",
+															"left": 383,
+															"top": 199,
+															"width": 69,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg0ajprGsQww="
+															},
+															"edgePosition": 1,
+															"text": "enviar datos"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlgzJpBLEYLLw="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlgzx2VbFLrow="
+													},
+													"lineStyle": 2,
+													"points": "403:164;403:248",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg0ajprGtcIg="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg0dm9bHDsCo=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyTYs7DPqwY="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg0dm9bHBwHQ="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg0dm9bHEr1k=",
+															"_parent": {
+																"$ref": "AAAAAAFlg0dm9bHDsCo="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg0dm9bHBwHQ="
+															},
+															"font": "Arial;13;0",
+															"left": 502,
+															"top": 240,
+															"width": 112,
+															"height": 13,
+															"alpha": -4.818653766428905,
+															"distance": 75.4254598925323,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg0dm9bHDsCo="
+															},
+															"edgePosition": 1,
+															"text": "Almacenar persona"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlgzHID7EDsHY="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlgzJpBLEYLLw="
+													},
+													"lineStyle": 2,
+													"points": "448:254;634:254;634:144",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg0dm9bHEr1k="
+													}
+												}
+											]
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlgyxE/7DjiR0=",
+											"_parent": {
+												"$ref": "AAAAAAFld/c6CTSkK4Y="
+											},
+											"name": "Obtener datos del formulario",
+											"ownedElements": [
+												{
+													"_type": "DFDExternalEntity",
+													"_id": "AAAAAAFlgyu4JbDXkLc=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyxE/7DjiR0="
+													},
+													"name": "administrador",
+													"ownedElements": [
+														{
+															"_type": "DFDDataFlow",
+															"_id": "AAAAAAFlgzYHi7EogMY=",
+															"_parent": {
+																"$ref": "AAAAAAFlgyu4JbDXkLc="
+															},
+															"name": "Ingresar persona",
+															"source": {
+																"$ref": "AAAAAAFlgyu4JbDXkLc="
+															},
+															"target": {
+																"$ref": "AAAAAAFlgyxE/7DjiR0="
+															}
+														}
+													]
+												},
+												{
+													"_type": "DFDDataStore",
+													"_id": "AAAAAAFlgzGSqrD5M78=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyxE/7DjiR0="
+													},
+													"name": "Persona",
+													"ownedElements": [
+														{
+															"_type": "DFDDataFlow",
+															"_id": "AAAAAAFlgzskn7E1mjo=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzGSqrD5M78="
+															},
+															"name": "ob",
+															"source": {
+																"$ref": "AAAAAAFlgzGSqrD5M78="
+															},
+															"target": {
+																"$ref": "AAAAAAFlgyxE/7DjiR0="
+															}
+														},
+														{
+															"_type": "DFDDataFlow",
+															"_id": "AAAAAAFlgz+snbFo/gU=",
+															"_parent": {
+																"$ref": "AAAAAAFlgzGSqrD5M78="
+															},
+															"name": "obtener datos existentes",
+															"source": {
+																"$ref": "AAAAAAFlgzGSqrD5M78="
+															},
+															"target": {
+																"$ref": "AAAAAAFlgzx2ULFJ7vk="
+															}
+														}
+													],
+													"id": "1.2"
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlgz1/vLFZThw=",
+													"_parent": {
+														"$ref": "AAAAAAFlgyxE/7DjiR0="
+													},
+													"name": "verificar existencia",
+													"source": {
+														"$ref": "AAAAAAFlgyxE/7DjiR0="
+													},
+													"target": {
+														"$ref": "AAAAAAFlgzx2ULFJ7vk="
+													}
+												}
+											],
+											"id": "1.1.1"
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlgzJpBLEWCeo=",
+											"_parent": {
+												"$ref": "AAAAAAFld/c6CTSkK4Y="
+											},
+											"name": "Crear persona",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg0cos7G0HV8=",
+													"_parent": {
+														"$ref": "AAAAAAFlgzJpBLEWCeo="
+													},
+													"source": {
+														"$ref": "AAAAAAFlgzJpBLEWCeo="
+													},
+													"target": {
+														"$ref": "AAAAAAFlgzJpBLEWCeo="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg0dm9bHBwHQ=",
+													"_parent": {
+														"$ref": "AAAAAAFlgzJpBLEWCeo="
+													},
+													"name": "Almacenar persona",
+													"source": {
+														"$ref": "AAAAAAFlgzJpBLEWCeo="
+													},
+													"target": {
+														"$ref": "AAAAAAFlgzGSqrD5M78="
+													}
+												}
+											]
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlgzx2ULFJ7vk=",
+											"_parent": {
+												"$ref": "AAAAAAFld/c6CTSkK4Y="
+											},
+											"name": "Validar cedula existe",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg0ajprGq6O4=",
+													"_parent": {
+														"$ref": "AAAAAAFlgzx2ULFJ7vk="
+													},
+													"name": "enviar datos",
+													"source": {
+														"$ref": "AAAAAAFlgzx2ULFJ7vk="
+													},
+													"target": {
+														"$ref": "AAAAAAFlgzJpBLEWCeo="
+													}
+												}
+											],
+											"documentation": "Proceso para verificar si los datos de la persona ya estan ingresados",
+											"id": "1.1.2"
 										}
 									],
 									"documentation": "Proceso para registrar personas",
@@ -3563,6 +4185,20 @@
 													"target": {
 														"$ref": "AAAAAAFleEZbRTYXPnE="
 													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg1niCLJQ+Js=",
+													"_parent": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													},
+													"name": "Obtener correo",
+													"source": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg1endbIrveQ="
+													}
 												}
 											],
 											"id": "1.4"
@@ -3580,6 +4216,704 @@
 											"target": {
 												"$ref": "AAAAAAFleC0N+TUSUmY="
 											}
+										},
+										{
+											"_type": "DFDDiagram",
+											"_id": "AAAAAAFlg02PVbHdd/o=",
+											"_parent": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"name": "Diagrama hijo Registrar usuario",
+											"ownedViews": [
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlg09VJbHmJk4=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg09VJbHk/dI="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg09VJbHnXEc=",
+															"_parent": {
+																"$ref": "AAAAAAFlg09VJbHmJk4="
+															},
+															"font": "Arial;13;0",
+															"left": 130,
+															"top": 160,
+															"width": 125,
+															"height": 26,
+															"text": "Obtener datos de formulario de usuario",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg09VJbHotfg=",
+															"_parent": {
+																"$ref": "AAAAAAFlg09VJbHmJk4="
+															},
+															"font": "Arial;13;0",
+															"left": 130,
+															"top": 133,
+															"width": 125,
+															"height": 13,
+															"text": "1.3.1"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 120,
+													"top": 128,
+													"width": 145,
+													"height": 69,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg09VJbHnXEc="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg09VJbHotfg="
+													}
+												},
+												{
+													"_type": "DFDDataStoreView",
+													"_id": "AAAAAAFlg1aRlrH+XeY=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg1aRlrH/BVw=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1aRlrH+XeY="
+															},
+															"font": "Arial;13;0",
+															"left": 638,
+															"top": 162,
+															"width": 32,
+															"height": 13,
+															"text": "users",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg1aRlrIAgpY=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1aRlrH+XeY="
+															},
+															"font": "Arial;13;0",
+															"left": 605,
+															"top": 162,
+															"width": 18,
+															"height": 13,
+															"text": "1.4"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 600,
+													"top": 152,
+													"width": 80,
+													"height": 33,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg1aRlrH/BVw="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg1aRlrIAgpY="
+													}
+												},
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlg1endbItMUo=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg1endbIrveQ="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg1endbIu+AM=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1endbItMUo="
+															},
+															"font": "Arial;13;0",
+															"left": 378,
+															"top": 160,
+															"width": 101,
+															"height": 26,
+															"text": "Validar correo existe",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg1endrIvKzE=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1endbItMUo="
+															},
+															"font": "Arial;13;0",
+															"left": 378,
+															"top": 133,
+															"width": 101,
+															"height": 13,
+															"text": "1.3.2"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 368,
+													"top": 128,
+													"width": 121,
+													"height": 69,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg1endbIu+AM="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg1endrIvKzE="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg1lCnrI/iuw=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg1lCnbI9aX0="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg1lCnrJAWnU=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1lCnrI/iuw="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg1lCnbI9aX0="
+															},
+															"font": "Arial;13;0",
+															"left": 273,
+															"top": 141,
+															"width": 86.28271484375,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg1lCnrI/iuw="
+															},
+															"edgePosition": 1,
+															"text": "Verificar correo"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg1endbItMUo="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg09VJbHmJk4="
+													},
+													"lineStyle": 2,
+													"points": "264:162;368:162",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg1lCnrJAWnU="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg1niCLJS4Og=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg1niCLJQ+Js="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg1niCLJTdXI=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1niCLJS4Og="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg1niCLJQ+Js="
+															},
+															"font": "Arial;13;0",
+															"left": 503,
+															"top": 152,
+															"width": 86,
+															"height": 13,
+															"alpha": 4.493718975687468,
+															"distance": 9.219544457292887,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg1niCLJS4Og="
+															},
+															"edgePosition": 1,
+															"text": "Obtener correo"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg1endbItMUo="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg1aRlrH+XeY="
+													},
+													"lineStyle": 2,
+													"points": "600:167;488:167",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg1niCLJTdXI="
+													}
+												},
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlg1syn7JfI9g=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg1synrJdDm8="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg1syn7Jg8jY=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1syn7JfI9g="
+															},
+															"font": "Arial;13;0",
+															"left": 386,
+															"top": 288,
+															"width": 93,
+															"height": 26,
+															"text": "Obtener datos persona",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg1syn7Jhalk=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1syn7JfI9g="
+															},
+															"font": "Arial;13;0",
+															"left": 386,
+															"top": 261,
+															"width": 93,
+															"height": 13,
+															"text": "1.3.3"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 376,
+													"top": 256,
+													"width": 113,
+													"height": 69,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg1syn7Jg8jY="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg1syn7Jhalk="
+													}
+												},
+												{
+													"_type": "DFDDataStoreView",
+													"_id": "AAAAAAFlg12G6bJuXQY=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFld/fp+TS3RpI="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg12G6bJvI0U=",
+															"_parent": {
+																"$ref": "AAAAAAFlg12G6bJuXQY="
+															},
+															"font": "Arial;13;0",
+															"left": 214,
+															"top": 282,
+															"width": 48,
+															"height": 13,
+															"text": "Persona",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg12G6bJwZUU=",
+															"_parent": {
+																"$ref": "AAAAAAFlg12G6bJuXQY="
+															},
+															"font": "Arial;13;0",
+															"left": 181,
+															"top": 282,
+															"width": 18,
+															"height": 13,
+															"text": "1.2"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 176,
+													"top": 272,
+													"width": 96,
+													"height": 33,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg12G6bJvI0U="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg12G6bJwZUU="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg13IxrKAs0g=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg13IxrJ+B30="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg13IxrKBdfg=",
+															"_parent": {
+																"$ref": "AAAAAAFlg13IxrKAs0g="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg13IxrJ+B30="
+															},
+															"font": "Arial;13;0",
+															"left": 398,
+															"top": 219,
+															"width": 91,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg13IxrKAs0g="
+															},
+															"edgePosition": 1,
+															"text": "Buscar persona"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg1syn7JfI9g="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg1endbItMUo="
+													},
+													"lineStyle": 2,
+													"points": "429:196;429:256",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg13IxrKBdfg="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg14NXLKLPLE=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg14NXLKJ8b4="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg14NXLKMndQ=",
+															"_parent": {
+																"$ref": "AAAAAAFlg14NXLKLPLE="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg14NXLKJ8b4="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 323,
+															"top": 268,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg14NXLKLPLE="
+															},
+															"edgePosition": 1
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg1syn7JfI9g="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg12G6bJuXQY="
+													},
+													"lineStyle": 2,
+													"points": "271:289;376:289",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg14NXLKMndQ="
+													}
+												},
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlg16qpbKW2QQ=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg16qpbKUoZE="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg16qpbKXt34=",
+															"_parent": {
+																"$ref": "AAAAAAFlg16qpbKW2QQ="
+															},
+															"font": "Arial;13;0",
+															"left": 594,
+															"top": 296,
+															"width": 93,
+															"height": 13,
+															"text": "Crear usuario",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg16qpbKYExA=",
+															"_parent": {
+																"$ref": "AAAAAAFlg16qpbKW2QQ="
+															},
+															"font": "Arial;13;0",
+															"left": 594,
+															"top": 269,
+															"width": 93,
+															"height": 13,
+															"text": "1.3.4"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 584,
+													"top": 264,
+													"width": 113,
+													"height": 57,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg16qpbKXt34="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg16qpbKYExA="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg19+S7Kqgpo=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg19+SrKocME="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg19+S7KrIpE=",
+															"_parent": {
+																"$ref": "AAAAAAFlg19+S7Kqgpo="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg19+SrKocME="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 492,
+															"top": 270,
+															"width": 89,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg19+S7Kqgpo="
+															},
+															"edgePosition": 1,
+															"text": "guardar usuario"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg16qpbKW2QQ="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg1syn7JfI9g="
+													},
+													"lineStyle": 2,
+													"points": "488:291;584:291",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg19+S7KrIpE="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg1/wcLLCyfo=",
+													"_parent": {
+														"$ref": "AAAAAAFlg02PVbHdd/o="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg1/wcLLAl2Q="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg1/wcLLDfYo=",
+															"_parent": {
+																"$ref": "AAAAAAFlg1/wcLLCyfo="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg1/wcLLAl2Q="
+															},
+															"font": "Arial;13;0",
+															"left": 570,
+															"top": 217,
+															"width": 108,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg1/wcLLCyfo="
+															},
+															"edgePosition": 1,
+															"text": "Almacenar usuario"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg1aRlrH+XeY="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg16qpbKW2QQ="
+													},
+													"lineStyle": 2,
+													"points": "639:264;639:184",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg1/wcLLDfYo="
+													}
+												}
+											]
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlg09VJbHk/dI=",
+											"_parent": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"name": "Obtener datos de formulario de usuario",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg1lCnbI9aX0=",
+													"_parent": {
+														"$ref": "AAAAAAFlg09VJbHk/dI="
+													},
+													"name": "Verificar correo",
+													"source": {
+														"$ref": "AAAAAAFlg09VJbHk/dI="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg1endbIrveQ="
+													}
+												}
+											],
+											"id": "1.3.1"
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlg1endbIrveQ=",
+											"_parent": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"name": "Validar correo existe",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg13IxrJ+B30=",
+													"_parent": {
+														"$ref": "AAAAAAFlg1endbIrveQ="
+													},
+													"name": "Buscar persona",
+													"source": {
+														"$ref": "AAAAAAFlg1endbIrveQ="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg1synrJdDm8="
+													}
+												}
+											],
+											"id": "1.3.2"
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlg1synrJdDm8=",
+											"_parent": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"name": "Obtener datos persona",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg19+SrKocME=",
+													"_parent": {
+														"$ref": "AAAAAAFlg1synrJdDm8="
+													},
+													"source": {
+														"$ref": "AAAAAAFlg1synrJdDm8="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg16qpbKUoZE="
+													}
+												}
+											],
+											"id": "1.3.3"
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlg16qpbKUoZE=",
+											"_parent": {
+												"$ref": "AAAAAAFleCyLDzUD7vw="
+											},
+											"name": "Crear usuario",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg1+3OrKyux4=",
+													"_parent": {
+														"$ref": "AAAAAAFlg16qpbKUoZE="
+													},
+													"source": {
+														"$ref": "AAAAAAFlg16qpbKUoZE="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg16qpbKUoZE="
+													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg1/wcLLAl2Q=",
+													"_parent": {
+														"$ref": "AAAAAAFlg16qpbKUoZE="
+													},
+													"name": "Almacenar usuario",
+													"source": {
+														"$ref": "AAAAAAFlg16qpbKUoZE="
+													},
+													"target": {
+														"$ref": "AAAAAAFleC0N+TUSUmY="
+													}
+												}
+											],
+											"id": "1.3.4"
 										}
 									],
 									"documentation": "Proceso para registrar usuario, obtiene los datos de la tabla persona\n",
@@ -3628,6 +4962,20 @@
 													"target": {
 														"$ref": "AAAAAAFleEZbRTYXPnE="
 													}
+												},
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg3HbCrMGCwY=",
+													"_parent": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													},
+													"name": "obtener datos",
+													"source": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg3EIBrLhDag="
+													}
 												}
 											],
 											"id": "1.6"
@@ -3645,6 +4993,475 @@
 											"target": {
 												"$ref": "AAAAAAFleDO7PTVKhSk="
 											}
+										},
+										{
+											"_type": "DFDDiagram",
+											"_id": "AAAAAAFlg28ZorLLrG4=",
+											"_parent": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"name": "Diagrama hijo registrar rol",
+											"ownedViews": [
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlg2/kdbLUg3Y=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg2/kdbLSCvo="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg2/kdbLVidk=",
+															"_parent": {
+																"$ref": "AAAAAAFlg2/kdbLUg3Y="
+															},
+															"font": "Arial;13;0",
+															"left": 234,
+															"top": 160,
+															"width": 101,
+															"height": 26,
+															"text": "obtener datos de formulario",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg2/kdbLWaNI=",
+															"_parent": {
+																"$ref": "AAAAAAFlg2/kdbLUg3Y="
+															},
+															"font": "Arial;13;0",
+															"left": 234,
+															"top": 133,
+															"width": 101,
+															"height": 13,
+															"text": "1.5.1"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 224,
+													"top": 128,
+													"width": 121,
+													"height": 69,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg2/kdbLVidk="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg2/kdbLWaNI="
+													}
+												},
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlg3EIBrLjMQA=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg3EIBrLhDag="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg3EIBrLkRGc=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3EIBrLjMQA="
+															},
+															"font": "Arial;13;0",
+															"left": 466,
+															"top": 168,
+															"width": 77,
+															"height": 13,
+															"text": "Validar rol",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg3EIBrLl9tI=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3EIBrLjMQA="
+															},
+															"font": "Arial;13;0",
+															"left": 466,
+															"top": 141,
+															"width": 77,
+															"height": 13,
+															"text": "1.5.2"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 456,
+													"top": 136,
+													"width": 97,
+													"height": 56,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg3EIBrLkRGc="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg3EIBrLl9tI="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg3GM2rL0qAc=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg3GM2rLyHN0="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg3GM2rL1zQc=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3GM2rL0qAc="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg3GM2rLyHN0="
+															},
+															"font": "Arial;13;0",
+															"left": 359,
+															"top": 142,
+															"width": 82,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg3GM2rL0qAc="
+															},
+															"edgePosition": 1,
+															"text": "verificar existe"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg3EIBrLjMQA="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg2/kdbLUg3Y="
+													},
+													"lineStyle": 2,
+													"points": "344:163;456:163",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg3GM2rL1zQc="
+													}
+												},
+												{
+													"_type": "DFDDataStoreView",
+													"_id": "AAAAAAFlg3HD27L99jM=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg3HD3LL+Jxg=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3HD27L99jM="
+															},
+															"font": "Arial;13;0",
+															"left": 696,
+															"top": 154,
+															"width": 21,
+															"height": 13,
+															"text": "role",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg3HD3LL/z1U=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3HD27L99jM="
+															},
+															"font": "Arial;13;0",
+															"left": 663,
+															"top": 154,
+															"width": 18,
+															"height": 13,
+															"text": "1.6"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 658,
+													"top": 144,
+													"width": 69,
+													"height": 33,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg3HD3LL+Jxg="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg3HD3LL/z1U="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg3HbCrMIi/E=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg3HbCrMGCwY="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg3HbCrMJtH4=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3HbCrMIi/E="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg3HbCrMGCwY="
+															},
+															"font": "Arial;13;0",
+															"left": 565,
+															"top": 143,
+															"width": 79,
+															"height": 13,
+															"alpha": -1.4876559224927188,
+															"distance": 12.041594578792296,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg3HbCrMIi/E="
+															},
+															"edgePosition": 1,
+															"text": "obtener datos"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg3EIBrLjMQA="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg3HD27L99jM="
+													},
+													"lineStyle": 2,
+													"points": "658:162;552:162",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg3HbCrMJtH4="
+													}
+												},
+												{
+													"_type": "DFDProcessView",
+													"_id": "AAAAAAFlg3MVfbMUFog=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg3MVfLMS8zI="
+													},
+													"subViews": [
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg3MVfbMVUqg=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3MVfbMUFog="
+															},
+															"font": "Arial;13;0",
+															"left": 474,
+															"top": 272,
+															"width": 55,
+															"height": 13,
+															"text": "Crear rol",
+															"wordWrap": true
+														},
+														{
+															"_type": "LabelView",
+															"_id": "AAAAAAFlg3MVfbMWhnw=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3MVfbMUFog="
+															},
+															"font": "Arial;13;0",
+															"left": 474,
+															"top": 245,
+															"width": 55,
+															"height": 13,
+															"text": "1.5.3"
+														}
+													],
+													"font": "Arial;13;0",
+													"left": 464,
+													"top": 240,
+													"width": 75,
+													"height": 56,
+													"nameLabel": {
+														"$ref": "AAAAAAFlg3MVfbMVUqg="
+													},
+													"idLabel": {
+														"$ref": "AAAAAAFlg3MVfbMWhnw="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg3Nbu7MhF/M=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg3NburMfF0U="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg3Nbu7MiBkk=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3Nbu7MhF/M="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg3NburMfF0U="
+															},
+															"visible": false,
+															"font": "Arial;13;0",
+															"left": 496,
+															"top": 208,
+															"width": 43,
+															"height": 13,
+															"alpha": 1.5707963267948966,
+															"distance": 15,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg3Nbu7MhF/M="
+															},
+															"edgePosition": 1,
+															"text": "guardar"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg3MVfbMUFog="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg3EIBrLjMQA="
+													},
+													"lineStyle": 2,
+													"points": "503:191;503:240",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg3Nbu7MiBkk="
+													}
+												},
+												{
+													"_type": "DFDDataFlowView",
+													"_id": "AAAAAAFlg3PdGLMtNMo=",
+													"_parent": {
+														"$ref": "AAAAAAFlg28ZorLLrG4="
+													},
+													"model": {
+														"$ref": "AAAAAAFlg3PdGLMrFb0="
+													},
+													"subViews": [
+														{
+															"_type": "EdgeLabelView",
+															"_id": "AAAAAAFlg3PdGbMuBc4=",
+															"_parent": {
+																"$ref": "AAAAAAFlg3PdGLMtNMo="
+															},
+															"model": {
+																"$ref": "AAAAAAFlg3PdGLMrFb0="
+															},
+															"font": "Arial;13;0",
+															"left": 624,
+															"top": 258,
+															"width": 43,
+															"height": 13,
+															"alpha": -4.9434795702972325,
+															"distance": 34.92849839314596,
+															"hostEdge": {
+																"$ref": "AAAAAAFlg3PdGLMtNMo="
+															},
+															"edgePosition": 1,
+															"text": "guardar"
+														}
+													],
+													"font": "Arial;13;0",
+													"head": {
+														"$ref": "AAAAAAFlg3HD27L99jM="
+													},
+													"tail": {
+														"$ref": "AAAAAAFlg3MVfbMUFog="
+													},
+													"lineStyle": 2,
+													"points": "538:272;680:272;680:176",
+													"nameLabel": {
+														"$ref": "AAAAAAFlg3PdGbMuBc4="
+													}
+												}
+											]
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlg2/kdbLSCvo=",
+											"_parent": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"name": "obtener datos de formulario",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg3GM2rLyHN0=",
+													"_parent": {
+														"$ref": "AAAAAAFlg2/kdbLSCvo="
+													},
+													"name": "verificar existe",
+													"source": {
+														"$ref": "AAAAAAFlg2/kdbLSCvo="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg3EIBrLhDag="
+													}
+												}
+											],
+											"id": "1.5.1"
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlg3EIBrLhDag=",
+											"_parent": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"name": "Validar rol",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg3NburMfF0U=",
+													"_parent": {
+														"$ref": "AAAAAAFlg3EIBrLhDag="
+													},
+													"source": {
+														"$ref": "AAAAAAFlg3EIBrLhDag="
+													},
+													"target": {
+														"$ref": "AAAAAAFlg3MVfLMS8zI="
+													}
+												}
+											],
+											"id": "1.5.2"
+										},
+										{
+											"_type": "DFDProcess",
+											"_id": "AAAAAAFlg3MVfLMS8zI=",
+											"_parent": {
+												"$ref": "AAAAAAFleDPz/TVWU9o="
+											},
+											"name": "Crear rol",
+											"ownedElements": [
+												{
+													"_type": "DFDDataFlow",
+													"_id": "AAAAAAFlg3PdGLMrFb0=",
+													"_parent": {
+														"$ref": "AAAAAAFlg3MVfLMS8zI="
+													},
+													"name": "guardar",
+													"source": {
+														"$ref": "AAAAAAFlg3MVfLMS8zI="
+													},
+													"target": {
+														"$ref": "AAAAAAFleDO7PTVKhSk="
+													}
+												}
+											],
+											"id": "1.5.3"
 										}
 									],
 									"documentation": "Proceso para registrar los roles (ADMINISTRADOR,TECNICOS)",
